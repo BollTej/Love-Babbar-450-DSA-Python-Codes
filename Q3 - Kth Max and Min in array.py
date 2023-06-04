@@ -1,0 +1,5 @@
+k = list(map(int,input().strip().split()))
+kth = int(input("which index :"))
+k.sort()
+print("Kth minimum element in k is :",k[kth-1])
+print("Kth maximum element in k is :",k[-kth])
